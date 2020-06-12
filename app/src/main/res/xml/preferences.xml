@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Texts">
+        <Preference
+            android:key="text"
+            android:title="Navigation"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Alarms">
+        <CheckBoxPreference
+            android:key="checkbox"
+            android:hint="EnterPassword"
+            android:title="Reset Account Password"/>
+        <SwitchPreference
+            android:key="Switch"
+            android:title="Dark Theme"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
